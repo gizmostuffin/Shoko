@@ -1,11 +1,16 @@
+telethon
+sqlalchemy
+redis
+python-telegram-bot==12.8
+pySmartDL
+html5lib
+html_telegraph_poster
 future
 emoji
 requests
-telethon
-sqlalchemy
-python-telegram-bot==12.8
 psycopg2-binary
 pythonping
+jikanpy
 feedparser
 pytz
 gtts
@@ -24,3 +29,4 @@ spamwatch
 bleach
 git+https://github.com/starry69/python-markdown2.git
 alphabet_detector
+pythonping
