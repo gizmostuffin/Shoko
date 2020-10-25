@@ -337,7 +337,7 @@ def Shoko_about_callback(update, context):
             text="*Shoko is a bot for managing your group with additional features,*"
                  "\nand is fork of [marie](https://github.com/PaulSonOfLars/tgbot)."
                  "\n\n_Shoko's licensed under the GNU General Public License v3.0_,"
-                 "\nhere is the [repository](https://github.com/AmTanny/Shokobot)."
+                 "\nhere is the [repository](https://github.com/gizmostuffin/Shoko)."
                  "\n\nIf any question about Shoko, let us know at @Shokosupport.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
