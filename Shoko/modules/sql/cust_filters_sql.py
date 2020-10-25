@@ -7,7 +7,7 @@ from Shoko.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
-    __tablename__ = "cust_filters4"
+    __tablename__ = "cust_filters"
     chat_id = Column(String(14), primary_key=True)
     keyword = Column(UnicodeText, primary_key=True, nullable=False)
     reply = Column(UnicodeText, nullable=False)
@@ -74,7 +74,7 @@ class CustomFilters(BASE):
 
 
 class NewCustomFilters(BASE):
-    __tablename__ = "cust_filters_new4"
+    __tablename__ = "cust_filters_new"
     chat_id = Column(String(14), primary_key=True)
     keyword = Column(UnicodeText, primary_key=True, nullable=False)
     text = Column(UnicodeText)
@@ -100,7 +100,7 @@ class NewCustomFilters(BASE):
 
 
 class Buttons(BASE):
-    __tablename__ = "cust_filter_urls4"
+    __tablename__ = "cust_filter_urls"
     id = Column(Integer, primary_key=True, autoincrement=True)
     chat_id = Column(String(14), primary_key=True)
     keyword = Column(UnicodeText, primary_key=True)

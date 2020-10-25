@@ -7,7 +7,7 @@ from telegram.error import BadRequest, Unauthorized
 
 
 class Federations(BASE):
-    __tablename__ = "feds3"
+    __tablename__ = "feds"
     owner_id = Column(String(14))
     fed_name = Column(UnicodeText)
     fed_id = Column(UnicodeText, primary_key=True)
@@ -26,7 +26,7 @@ class Federations(BASE):
 
 
 class ChatF(BASE):
-    __tablename__ = "chat_feds3"
+    __tablename__ = "chat_feds"
     chat_id = Column(String(14), primary_key=True)
     chat_name = Column(UnicodeText)
     fed_id = Column(UnicodeText)
@@ -38,7 +38,7 @@ class ChatF(BASE):
 
 
 class BansF(BASE):
-    __tablename__ = "bans_feds3"
+    __tablename__ = "bans_feds"
     fed_id = Column(UnicodeText, primary_key=True)
     user_id = Column(String(14), primary_key=True)
     first_name = Column(UnicodeText, nullable=False)
@@ -59,7 +59,7 @@ class BansF(BASE):
 
 
 class FedsUserSettings(BASE):
-    __tablename__ = "feds_settings3"
+    __tablename__ = "feds_settings"
     user_id = Column(Integer, primary_key=True)
     should_report = Column(Boolean, default=True)
 
@@ -71,7 +71,7 @@ class FedsUserSettings(BASE):
 
 
 class FedSubs(BASE):
-    __tablename__ = "feds_subs3"
+    __tablename__ = "feds_subs"
     fed_id = Column(UnicodeText, primary_key=True)
     fed_subs = Column(UnicodeText, primary_key=True, nullable=False)
 
