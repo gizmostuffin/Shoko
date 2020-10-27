@@ -19,7 +19,6 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Shoko.modules.helper_funcs.cas_api as cas
 import Shoko.modules.sql.welcome_sql as sql
 from Shoko.modules.sql.antispam_sql import is_user_gbanned
 from Shoko import dispatcher, OWNER_ID, LOGGER, MESSAGE_DUMP, spamwtc
