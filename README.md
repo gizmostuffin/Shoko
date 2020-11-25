@@ -11,7 +11,7 @@ Please see the appropriate guide for your environment of choice:
 *Note:* Rename `sample_config.py` to `config.py`.
 
 ## Heroku
-Deploy Paperplane to Heroku:
+Deploy Shoko to Heroku:
 `Coming soon...`
 
 ## Config
