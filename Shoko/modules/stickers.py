@@ -13,6 +13,7 @@ from Shoko import dispatcher, REDIS
 from Shoko.modules.disable import DisableAbleCommandHandler
 from Shoko.modules.helper_funcs.alternate import typing_action
 
+# Reworked @meanii <https://github.com/meanii>  
 
 @run_async
 @typing_action

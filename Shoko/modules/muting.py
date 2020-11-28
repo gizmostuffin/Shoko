@@ -23,6 +23,7 @@ from Shoko.modules.helper_funcs.chat_status import is_user_admin
 from Shoko.modules.helper_funcs.alternate import typing_action
 from Shoko.modules.log_channel import loggable
 
+# Reworked @meanii <https://github.com/meanii>  
 
 @run_async
 @bot_admin

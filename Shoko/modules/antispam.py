@@ -75,7 +75,7 @@ UNGBAN_ERRORS = {
     "User not found",
 }
 
-
+# Reworked @meanii <https://github.com/meanii>  
 
 @run_async
 @typing_action

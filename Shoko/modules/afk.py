@@ -19,6 +19,8 @@ import Shoko.modules.helper_funcs.fun_strings as fun
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
+# Reworked @meanii <https://github.com/meanii>  
+
 @run_async
 def afk(update, context):
     args = update.effective_message.text.split(None, 1)

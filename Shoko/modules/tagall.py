@@ -16,6 +16,7 @@ from Shoko.modules.helper_funcs.chat_status import (
 from Shoko.modules.helper_funcs.extraction import extract_user_and_text
 from Shoko.modules.helper_funcs.alternate import typing_action
 
+# This Module is completely made by @meanii <https://github.com/meanii>  
 
 @run_async
 @bot_admin

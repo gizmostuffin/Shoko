@@ -17,6 +17,7 @@ prequel_btn = "⬅️ Prequel"
 sequel_btn = "Sequel ➡️"
 close_btn = "Close ❌"
 
+# Reworked @meanii <https://github.com/meanii>  
 
 def shorten(description, info='anilist.co'):
     msg = ""
