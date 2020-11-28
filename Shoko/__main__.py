@@ -35,6 +35,7 @@ from Shoko.modules.helper_funcs.chat_status import is_user_admin
 from Shoko.modules.helper_funcs.misc import paginate_modules
 from Shoko.modules.helper_funcs.alternate import typing_action
 
+# Reworked @meanii <https://github.com/meanii>  
 
 PM_START_TEXT = f"""
 Hey there! my name is *{dispatcher.bot.first_name}*. If you have any questions on how to use me, Click Help button.
