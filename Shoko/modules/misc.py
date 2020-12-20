@@ -406,6 +406,7 @@ An "odds and ends" module for small, simple commands which don't really fit anyw
  - /markdownhelp: Quick summary of how markdown works in telegram - can only be called in private chats.
  *Translator*
  - /tr or /tl: - To translate to your language, by default language is set to english, use `/tr <lang code>` for some other language!
+ - /tr hi-en: translates hindi to english
  - /splcheck: - As a reply to get grammar corrected text of gibberish message.
  - /tts: - To some message to convert it into audio format!
  *Weather*
